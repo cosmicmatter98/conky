@@ -28,7 +28,6 @@ conky.config = {
 
 	font = 'Rounded Elegance:size=10', -- setting default font
 	xftalpha = 0, -- huh??
-	update_interval = 2, -- again? why? [line 11]
 	cpu_avg_samples = 2,
 	net_avg_samples = 2,
 	double_buffer = true, -- no idea
