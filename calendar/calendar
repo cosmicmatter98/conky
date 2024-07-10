@@ -31,7 +31,7 @@ border_width = 0,
 default_color = 'white',
 default_shade_color = 'white',
 default_outline_color = 'white',
-alignment = 'top_middle',
+alignment = 'bottom_left',
 use_spacer = 'left',
 no_buffers = true,
 uppercase = false,
@@ -45,5 +45,5 @@ own_window_colour = '#0d718c',
 };
 
 conky.text = [[
-${font LiberationMono:size=15}${color white}${execpi 86400 ncal -h3M}
+${font LiberationMono:size=15}${color white}${execpi 86400 ncal -hM}
 ]];
