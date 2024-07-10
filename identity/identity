@@ -30,7 +30,7 @@ border_width = 0,
 default_color = 'white',
 default_shade_color = 'white',
 default_outline_color = 'white',
-alignment = 'top_left',
+alignment = 'top_middle',
 use_spacer = 'left',
 no_buffers = true,
 uppercase = false,
@@ -44,7 +44,5 @@ own_window_colour = '#0d718c',
 };
 
 conky.text = [[
-${color white}${font Liquid Crystal:size=15}reddit: u/EasternCustomer1332
-${color white}${font Liquid Crystal:size=15}discord: abashedstorm550
-${color white}${font Liquid Crystal:size=15}github: cosmicmatter98
+${color white}${font Liquid Crystal:size=15}abashedstorm550
 ]];
