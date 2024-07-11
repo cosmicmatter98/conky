@@ -11,7 +11,7 @@ background = true,
 own_window = true,
 own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
 own_window_argb_visual = true,
-own_window_argb_value = 5,
+own_window_argb_value = 0,
 out_to_console = false,
 own_window_transparent = false,
 own_window_class = 'conky_semi',
@@ -31,7 +31,7 @@ border_width = 0,
 default_color = 'white',
 default_shade_color = 'white',
 default_outline_color = 'white',
-alignment = 'bottom_left',
+alignment = 'bottom_right',
 use_spacer = 'left',
 no_buffers = true,
 uppercase = false,
@@ -41,9 +41,9 @@ minimum_width = 0,
 minimum_height = 0,
 gap_x = 0,
 gap_y = 0,
-own_window_colour = '#0d718c',
+own_window_colour = '0d718c',
 };
 
 conky.text = [[
-${font LiberationMono:size=15}${color white}${execpi 86400 ncal -hM}
+${font LiberationMono:size=15}${color white}${execp ncal -bM}
 ]];
