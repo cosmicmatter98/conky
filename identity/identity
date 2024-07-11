@@ -44,5 +44,8 @@ own_window_colour = '#0d718c',
 };
 
 conky.text = [[
-${color white}${font Liquid Crystal:size=15}abashedstorm550
+${color white}${font}${alignc}AbashedStorm550
+${color white}${execi 86400 cat /etc/mx-version} ${font}${color white}Kernel: $kernel $machine
+${font}${color white}${alignc}${execi 86400 grep -m1 -oP '^model name\s+:\s\K(.*)' /proc/cpuinfo}
+${font}${color white}RAM AVAILABLE: ${color white}$memmax ${font}${color white}${alignr}USED: $mem (${memperc}%)
 ]];
