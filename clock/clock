@@ -10,7 +10,7 @@ update_interval = 1,
 background = true,
 own_window = true,
 own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
-own_window_argb_visual = true,
+own_window_argb_visual = false,
 own_window_argb_value = 64,
 out_to_console = false,
 own_window_transparent = false,
@@ -29,7 +29,7 @@ border_width = 0,
 default_color = 'white',
 default_shade_color = 'white',
 default_outline_color = 'white',
-alignment = 'bottom_right',
+alignment = 'bottom_middle',
 use_spacer = 'left',
 no_buffers = true,
 uppercase = false,
@@ -44,5 +44,5 @@ own_window_colour = '0B0A18',
 
 conky.text = [[
 # Clock
-${font Liquid Crystal:size=75}${color white}${exec date +"%H:%M:%S"}
+${font Liquid Crystal:size=75}${color red}${exec date +"%T"}
 ]];
