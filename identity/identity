@@ -10,9 +10,9 @@ background = true,
 own_window = true,
 own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
 own_window_argb_visual = true,
-own_window_argb_value = 66,
+own_window_argb_value = 0,
 out_to_console = false,
-own_window_transparent = false,
+own_window_transparent = true,
 own_window_class = 'conky_semi',
 use_xft = true,
 font = 'cure: size=10',
@@ -44,8 +44,8 @@ own_window_colour = '000000',
 };
 
 conky.text = [[
-${color white}${font}${alignc}AbashedStorm550
-${color white}${execi 86400 cat /etc/mx-version} ${font}${color white}Kernel: $kernel $machine
-${font}${color white}${alignc}${execi 86400 grep -m1 -oP '^model name\s+:\s\K(.*)' /proc/cpuinfo}
-${font}${color white}RAM AVAILABLE: ${color white}$memmax ${font}${color white}${alignr}USED: $mem (${memperc}%)
+${color black}${font LiberationMono-Regular:size=10:bold}${alignc}AbashedStorm550
+${color black}${font LiberationMono-Regular:size=10:bold}${execi 86400 cat /etc/mx-version} ${color black}${font LiberationMono-Regular:size=10:bold}Kernel: $kernel $machine
+${color black}${font LiberationMono-Regular:size=10:bold}${alignc}${execi 86400 grep -m1 -oP '^model name\s+:\s\K(.*)' /proc/cpuinfo}
+${color black}${font LiberationMono-Regular:size=10:bold}RAM AVAILABLE: ${color black}${font LiberationMono-Regular:size=10:bold}$memmax ${color black}${font LiberationMono-Regular:size=10:bold}${alignr}USED: $mem (${memperc}%)
 ]];
