@@ -1,5 +1,5 @@
 conky.config = {
--- calendar
+-- clock
 -- made by AbashedStorm550
 -- reddit: u/EasternCustomer1332
 -- github: cosmicmatter98
@@ -39,10 +39,10 @@ minimum_width = 0,
 minimum_height = 0,
 gap_x = 0,
 gap_y = 0,
-own_window_colour = '0B0A18',
+own_window_colour = '00DFAA',
 };
 
 conky.text = [[
 # Clock
-${font Liquid Crystal:size=75}${color red}${exec date +"%T"}
+${font Liquid Crystal:size=75}${color black}${exec date +"%T"}
 ]];
